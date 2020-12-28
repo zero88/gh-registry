@@ -1,6 +1,7 @@
 # gh-docker-registry
 
 ![Docker Image Version (latest semver)](https://img.shields.io/docker/v/zero88/gh-registry?sort=semver&style=flat-square)
+![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/zero88/gh-registry?style=flat-square)
 
 Docker Registry for GitHub action cache
 
