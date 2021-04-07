@@ -47,6 +47,8 @@ Docker Registry for GitHub action cache
 
       - name: Set up Docker Buildx
         uses: docker/setup-buildx-action@v1
+        with:
+          driver-opts: network=host
 
       - name: Docker build
         uses: docker/build-push-action@v2
