@@ -40,7 +40,7 @@ Docker Registry for GitHub action cache
 
       - name: Validate cache
         run: |
-          docker buildx imagetools inspect localhost:5000/test:buildcache
+          docker buildx imagetools inspect localhost:5000/${{ env.APP_IMAGE }}:buildcache || echo "Not Found"
       
       - name: Set up QEMU
         uses: docker/setup-qemu-action@v1
